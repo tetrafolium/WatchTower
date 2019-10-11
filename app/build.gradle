@@ -34,6 +34,10 @@ android {
         exclude 'META-INF/LICENSE.txt'
         exclude 'META-INF/NOTICE'
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
     dependencies {
         final PLAY_SERVICES_VERSION = '7.5.0'
